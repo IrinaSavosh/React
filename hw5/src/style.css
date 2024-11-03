@@ -1,0 +1,65 @@
+body {
+   margin: 0;
+   padding: 0;
+   min-height: 100vh;
+   transition: all 0.3s ease;
+}
+
+body.light {
+   background-color: #ffffff;
+   color: #333333;
+}
+
+body.dark {
+   background-color: #1a1a1a;
+   color: #ffffff;
+}
+
+.app-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   padding: 20px;
+}
+
+.theme-container {
+   text-align: center;
+   padding: 20px;
+   border-radius: 10px;
+   transition: all 0.3s ease;
+}
+
+.theme-button {
+   padding: 12px 24px;
+   font-size: 16px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   margin-top: 20px;
+}
+
+.theme-button.light {
+   background-color: #333333;
+   color: #ffffff;
+}
+
+.theme-button.light:hover {
+   background-color: #444444;
+}
+
+.theme-button.dark {
+   background-color: #ffffff;
+   color: #333333;
+}
+
+.theme-button.dark:hover {
+   background-color: #e0e0e0;
+}
+
+/* Заголовок */
+h1 {
+   margin-bottom: 20px;
+   font-size: 24px;
+}
